@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshal's Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+<html>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Eshal's Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Eshal, a second-year Computer Science student with a passion for coding and technology. I enjoy learning new programming languages and working on exciting projects that challenge my skills.</p>
+            <img src="profile.jpg" alt="Eshal's Profile Picture">
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1: Web Development</h3>
+                    <p>A responsive website created using HTML, CSS, and JavaScript.</p>
+                </li>
+                <li>
+                    <h3>Project 2: Mobile App</h3>
+                    <p>An Android application developed using Java and Kotlin.</p>
+                </li>
+                <li>
+                    <h3>Project 3: Data Analysis</h3>
+                    <p>A data analysis project utilizing Python and Pandas for data manipulation.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Media</h2>
+            <h3>Project Demo Video</h3>
+            <video controls>
+                <source src="demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>Podcast Interview</h3>
+            <audio controls>
+                <source src="interview.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Eshal's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
